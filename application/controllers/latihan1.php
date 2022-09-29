@@ -5,7 +5,7 @@
 			echo "Kali ini saya akan belajar CodeIgniter ";
 		}
 
-		public function penjumlahan($n1, $n2) {
+		public function penjumlahan($n1=0, $n2=0) {
 			$this->load->model('Model_latihan1');
 			$data['nilai1'] = $n1;
 			$data['nilai2'] = $n2;
@@ -15,3 +15,4 @@
 		}
 	}
 ?>
+~
